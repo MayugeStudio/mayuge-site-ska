@@ -11,8 +11,10 @@ a {
 
 #header {
   margin: 0 auto 0 auto;
-  max-width: 960px;
+  max-width: 1000px;
+  box-sizing: border-box;
   padding: 0 16px 0 16px;
+  border-bottom: 2px solid #ea2;
 }
 
 #header nav {
@@ -30,7 +32,6 @@ a {
 #header nav a img {
   vertical-align: middle;
 }
-
 
 #header nav div {
   display: flex;
@@ -60,3 +61,10 @@ a {
 #header nav div ul li a:hover {
   color: #444;
 }
+
+#wrapper {
+  background-color: gray;
+  width: 1000px;
+  margin: 0 auto;
+}
+
