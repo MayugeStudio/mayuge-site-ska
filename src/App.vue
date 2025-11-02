@@ -4,8 +4,29 @@
 </script>
 
 <template>
-  <Header />
-  <router-view />
-  <Footer />
+  <div id="app">
+    <Header />
+    <main class="main-content">
+      <router-view />
+    </main>
+    <Footer />
+  </div>
 </template>
+
+<style>
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  font-family: system-ui, sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+.main-content {
+  flex: 1;
+}
+
+</style>
 
