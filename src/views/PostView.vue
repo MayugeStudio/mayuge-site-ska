@@ -7,7 +7,7 @@
   const html = ref('<p>Loading...</p>')
 
   onMounted(async () => {
-    const res = await fetch(`/posts/${route.params.name}.md`)
+    const res = await fetch(`${import.meta.env.BASE_URL}/posts/${route.params.name}.md`)
     const text = await res.text()
     html.value = marked.parse(text)
   })
