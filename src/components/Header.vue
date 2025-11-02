@@ -8,7 +8,7 @@
       <ul>
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/posts">Posts</router-link></li>
-        <li><router-link to="/about">Profile</router-link></li>
+        <li><router-link to="/profile">Profile</router-link></li>
       </ul>
     </nav>
   </header>
