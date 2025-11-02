@@ -1,6 +1,6 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
-import PostView from './components/PostView.vue'
-import Home from './App.vue'
+import PostView from './views/PostView.vue'
+import Home from './views/Home.vue'
 
 export default createRouter({
   history: createWebHashHistory(),
