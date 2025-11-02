@@ -38,7 +38,7 @@ a {
 
 ul li a.router-link-active {
   font-weight: bold;
-  color: orange;
+  color: var(--color-primary);
 }
 
 </style>

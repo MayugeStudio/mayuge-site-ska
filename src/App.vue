@@ -4,8 +4,19 @@
 </script>
 
 <template>
-  <Header />
-  <router-view />
-  <Footer />
+  <div class="wrap">
+    <Header />
+    <router-view />
+    <Footer />
+  </div>
 </template>
+
+<style>
+.wrap {
+  font-family: system-ui, sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+</style>
 
