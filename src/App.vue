@@ -25,6 +25,8 @@
 }
 
 .main-content {
+  margin: 0 auto;
+  max-width: 1120px;
   flex: 1;
 }
 
